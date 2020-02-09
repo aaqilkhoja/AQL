@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Blood Alcohol Level Calculator</string>
+
+    <string-array name="numberOfDrinks" >
+        <item>Number of Drinks</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+
+
+    </string-array>
+
+
+    <string-array name="genderByBirth" >
+        <item>Gender By Birth</item>
+        <item>Male</item>
+        <item>Female</item>
+
+    </string-array>
+
+    <string-array name="weight">
+        <item>Weight Category</item>
+        <item>100 - 120</item>
+        <item>120.1 - 140</item>
+        <item>140.1 - 160</item>
+        <item>160.1 - 180</item>
+        <item>180.1 - 200</item>
+        <item>200.1 - 220</item>
+        <item>220.1 - 240</item>
+        <item>>240</item>
+
+    </string-array>
+
+
+
+
+</resources>

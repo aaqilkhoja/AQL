@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="262dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Blood Alcohol Level Calculator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:layout_marginLeft="70dp"
+    android:layout_marginBottom="10dp"/>
+
+
+    <Spinner
+        android:id="@+id/numberOfDrinks"
+        android:layout_width="262dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <Spinner
+        android:id="@+id/genderByBirth"
+        android:layout_width="262dp"
+        android:layout_marginLeft="70dp"
+
+        android:layout_height="50dp"/>
+<!--    android:layout_marginBottom="50dp"/>-->
+
+    <Spinner
+        android:id="@+id/weight"
+        android:layout_width="262dp"
+        android:layout_marginLeft="70dp"
+
+        android:layout_height="50dp"/>
+<!--        android:layout_marginBottom="40dp" />-->
+
+    <!--        arrange margins-->
+<!--        android:layout_marginBottom="75dp"/>-->
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="262dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="70dp"
+
+        android:layout_marginBottom="75dp"
+        android:ems="10"
+        android:hint="Hours since first drink?"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:text="Calculate"
+        tools:layout_editor_absoluteX="43dp"
+        android:layout_marginBottom="50dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:gravity="center"
+        android:text="Result"
+        android:textSize="25sp" />
+
+
+</LinearLayout>
